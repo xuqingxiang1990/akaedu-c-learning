@@ -1,0 +1,17 @@
+#include <stdio.h>
+#define DEBUG(x) printf( #x " is int , value id  " #x " = %d\n", x)
+
+int main(void)
+{
+	int a = 200, b = 300, c = 100;
+	printf("a = %d\n", a);
+	printf("b = %d\n", b);
+	printf("c = %d\n", c);
+
+	DEBUG(a);
+	DEBUG(b);
+	DEBUG(c);
+	DEBUG((a + c));
+	 
+	return 0;
+}

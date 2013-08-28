@@ -1,0 +1,22 @@
+/* Script for -z combreloc: combine and sort reloc sections */
+ENTRY(main)
+SECTIONS
+{
+  . = 0x0;
+        .text           :
+  {
+    *(.text)
+  }
+    .rodata         : { *(.rodata .rodata.* .gnu.linkonce.r.*) }
+    .data           :
+  {
+    *(.data .data.* .gnu.linkonce.d.*)
+    SORT(CONSTRUCTORS)
+  }
+    .bss            :
+  {
+   *(.bss )
+     }
+  }
+
+

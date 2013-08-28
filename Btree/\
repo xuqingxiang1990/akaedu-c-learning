@@ -1,0 +1,54 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+#define N 10
+#define MAX 100
+
+struct node {
+	char item;
+	struct node *l, *r;
+};
+
+typedef struct node *link;
+
+link root = NULL;
+
+link make_node(char item)
+{
+	link p;
+	p = malloc(sizeof(*p));
+	p->item = item;
+	p->l = NULL;
+	p->r = NULL;
+
+	return p;
+}
+
+void digit(int a[], int len)
+{
+	int i;
+	srand(time(NULL));
+	for(i = 0; i < len; i++)
+		a[i] = rand() % MAX;
+}
+
+
+int main(void)
+{
+	link a, b, c, d, e, f, g;
+	a = make_node('a');
+	b = make_node('b');
+	c = make_node('c');
+	d = make_node('d');
+	e = make_node('e');
+	f = make_node('f');
+	g = make_node('g');
+	a->l = b;
+	a->r = c;
+	b->l = d;
+	b->r = e;
+	c->l = f;
+	c->r = g;
+	
+	return 0;
+}

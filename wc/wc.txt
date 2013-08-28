@@ -1,0 +1,15 @@
+总用量 60
+-rwxr-xr-x 1 akaedu akaedu 7521 2013-08-19 11:00 a.out
+-rw-r--r-- 1 akaedu akaedu  126 2013-08-07 20:53 argc.c
+-rw-r--r-- 1 akaedu akaedu  119 2013-08-17 16:29 buf.c
+-rw-r--r-- 1 akaedu akaedu 2894 2013-08-17 15:21 fseek.txt
+-rw-r--r-- 1 akaedu akaedu   43 2013-08-19 10:50 Makefile
+-rw-r--r-- 1 akaedu akaedu 1346 2013-08-19 11:00 maxline.c
+-rw-r--r-- 1 akaedu akaedu 5053 2013-08-19 10:20 maxline.txt
+-rw-r--r-- 1 akaedu akaedu  240 2013-08-07 15:37 memcpy.c
+-rw-r--r-- 1 akaedu akaedu  525 2013-08-07 09:58 mytt.c
+-rw-r--r-- 1 akaedu akaedu 2981 2013-08-08 11:27 mywc1.c
+-rw-r--r-- 1 akaedu akaedu  371 2013-08-07 20:42 strtok.c
+-rwxr-xr-x 1 akaedu akaedu  748 2013-08-08 11:00 trans.rb
+-rw-r--r-- 1 akaedu akaedu  155 2013-08-17 15:22 t.tmp
+-rw-r--r-- 1 akaedu akaedu    0 2013-08-19 11:02 wc.txt
